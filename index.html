@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Таблица</title>
+    <style>
+      .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        width: 100%;
+        max-width: 1200px;
+        height: 5vh;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #e0e0ee;
+        font-weight: bold;
+      }
+      .main {
+        display: flex;
+        border: 1px solid gray;
+        width: 100%;
+        max-width: 1200px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 20vh;
+      }
+      .part {
+        display: flex;
+        margin-right: 15px;
+        margin-left: 15px;
+        width: 70%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .article {
+        display: flex;
+        width: 70%;
+        padding-right: 15px;
+        padding-left: 15px;
+        background-color: #fff8e3;
+        font-weight: bold;
+        justify-content: center;
+        text-align: center;
+        align-self: center;
+      }
+      .footer {
+        display: flex;
+        border: 1px solid gray;
+        justify-content: center;
+        height: 10vh;
+        width: 100%;
+        max-width: 1200px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #e0e0ee;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .top {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1200px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #e0e0ee;
+      }
+      .dop1 {
+        display: flex;
+        flex-grow: 1;
+        text-align: center;
+        justify-content: space-around;
+        background-color: #feeab9;
+        width: 50%;
+        margin-top: 10px;
+        font-weight: bold;
+      }
+      .dop2 {
+        display: flex;
+        flex-grow: 1;
+        text-align: center;
+        justify-content: space-around;
+        background-color: #feeab9;
+        width: 50%;
+        margin-top: 10px;
+        font-weight: bold;
+      }
+      .dop3 {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        background-color: #feeab9;
+        width: 100%;
+        margin-top: 10px;
+        font-weight: bold;
+      }
+      .aside {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: #ddeccb;
+        width: 30%;
+        font-weight: bold;
+        padding: 20px;
+      }
+      .foot {
+        background-color: #fafafa;
+        padding: 20px;
+        width: 15%;
+        text-align: center;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <header class="header">[Шапка страницы]</header>
+  <main class="main">
+    <div class="part">
+      <div class="article">[Основная часть]</div>
+      <div class="dop1">[Еще 1]</div>
+      <div class="dop2">[Еще 2]</div>
+      <div class="dop3">[Еще 3]</div>
+    </div>
+    <aside class="aside">[Боковая область]</aside>
+  </main>
+  <footer class="footer">
+    <div class="top">
+      <div class="foot">[Секция футера 1]</div>
+      <div class="foot">[Секция футера 2]</div>
+      <div class="foot">[Секция футера 3]</div>
+      <div class="foot">[Секция футера 4]</div>
+    </div>
+  </footer>
+</html>
